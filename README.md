@@ -13,6 +13,23 @@ Sistem ini memungkinkan pengguna untuk mengelola dan memvisualisasikan hubungan 
 
 Vide demo aplikasi: https://drive.google.com/drive/u/1/folders/152cSfoFeweq3v6DPo7gFr8hzsFQerC01
 
+## Application Overview
+
+#### Soal A
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <img src="https://github.com/muhammadaliyusuf/kokola_test/blob/main/.ApplicationOverview/soal_a-1.png" style="width: 48%; height: auto;">
+  <img src="https://github.com/muhammadaliyusuf/kokola_test/blob/main/.ApplicationOverview/soal_a-2.png" style="width: 48%; height: auto;">
+</div>
+
+#### Soal B
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 20px;">
+  <img src="https://github.com/muhammadaliyusuf/kokola_test/blob/main/.ApplicationOverview/soal_b-1.png" style="width: 48%; height: auto;">
+  <img src="https://github.com/muhammadaliyusuf/kokola_test/blob/main/.ApplicationOverview/soal_b-2.png" style="width: 48%; height: auto;">
+</div>
+
+
 ## Struktur Proyek
 
 ```
