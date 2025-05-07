@@ -11,6 +11,8 @@ Sistem ini memungkinkan pengguna untuk mengelola dan memvisualisasikan hubungan 
 - Visualisasi produk yang belum terkait dengan plant mana pun
 - Pemrosesan data secara asinkron menggunakan AJAX
 
+Vide demo aplikasi: https://drive.google.com/drive/u/1/folders/152cSfoFeweq3v6DPo7gFr8hzsFQerC01
+
 ## Struktur Proyek
 
 ```
@@ -48,7 +50,7 @@ kokola_test/
 
 1. Clone repositori ini ke direktori web server Anda:
    ```
-   git clone https://github.com/username/kokola-plant-product.git
+   git clone https://github.com/muhammadaliyusuf/kokola-plant-product.git
    ```
 
 2. Buat database baru bernama `kokola_test` di MySQL:
@@ -56,28 +58,7 @@ kokola_test/
    CREATE DATABASE kokola_test;
    ```
 
-3. Import skema database dari file `database/schema.sql` (jika ada) atau buat tabel yang diperlukan:
-   ```sql
-   CREATE TABLE m_plant (
-     id INT PRIMARY KEY AUTO_INCREMENT,
-     kode VARCHAR(50) NOT NULL,
-     name VARCHAR(255) NOT NULL
-   );
-
-   CREATE TABLE m_product (
-     id INT PRIMARY KEY AUTO_INCREMENT,
-     name VARCHAR(255) NOT NULL
-   );
-
-   CREATE TABLE m_plant_product (
-     id INT PRIMARY KEY AUTO_INCREMENT,
-     id_plant INT,
-     id_product INT,
-     file_url VARCHAR(255),
-     FOREIGN KEY (id_plant) REFERENCES m_plant(id),
-     FOREIGN KEY (id_product) REFERENCES m_product(id)
-   );
-   ```
+3. Import skema database dari file `database/db_interview.sql`
 
 4. Konfigurasi koneksi database di file `config/database.php`:
    ```php
