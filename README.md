@@ -134,7 +134,7 @@ Sistem ini menerapkan beberapa langkah keamanan:
 ## Kontak
 
 Jika memiliki pertanyaan atau masukan, silakan hubungi:
-- Email: muhammadaliyusuff@gmail.com
+- Email: muhammadaliyusuff22@gmail.com
 - GitHub: [muhammadaliyusuf](https://github.com/muhammadaliyusuf)
 
 ## Pengembang
